@@ -17,6 +17,7 @@ _global_script_class_icons={
 
 config/name="Rogue"
 run/main_scene="res://Worlds/EnterWorld.tscn"
+boot_splash/bg_color=Color( 0.141176, 0.141176, 0.141176, 1 )
 config/icon="res://icon.png"
 
 [display]
@@ -32,4 +33,5 @@ theme/use_hidpi=true
 [rendering]
 
 quality/2d/use_pixel_snap=true
+environment/default_clear_color=Color( 0.2, 0.2, 0.2, 1 )
 environment/default_environment="res://default_env.tres"

@@ -1,0 +1,78 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Sprites/GUI/GUI0.png" type="Texture" id=1]
+
+[sub_resource type="Theme" id=2]
+
+[sub_resource type="TileSet" id=1]
+0/name = "GUI0.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 16, 112, 16, 16 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "GUI0.png 1"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 32, 144, 16, 16 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "GUI0.png 2"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 112, 64, 48 )
+2/tile_mode = 1
+2/autotile/bitmask_mode = 1
+2/autotile/bitmask_flags = [ Vector2( 0, 0 ), 16, Vector2( 1, 0 ), 432, Vector2( 1, 1 ), 438, Vector2( 1, 2 ), 54, Vector2( 2, 0 ), 504, Vector2( 2, 1 ), 511, Vector2( 2, 2 ), 63, Vector2( 3, 0 ), 216, Vector2( 3, 1 ), 219, Vector2( 3, 2 ), 27 ]
+2/autotile/icon_coordinate = Vector2( 0, 0 )
+2/autotile/tile_size = Vector2( 16, 16 )
+2/autotile/spacing = 0
+2/autotile/occluder_map = [  ]
+2/autotile/navpoly_map = [  ]
+2/autotile/priority_map = [  ]
+2/autotile/z_index_map = [  ]
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 0.0220337
+margin_top = 0.863876
+margin_right = 0.0219727
+margin_bottom = 0.863892
+theme = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2( 13.4086, -10.3809 )
+tile_set = SubResource( 1 )
+cell_size = Vector2( 16, 16 )
+cell_custom_transform = Transform2D( 16, 0, 0, 16, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 2097154, 2, 1, 2097155, 2, 2, 2097156, 2, 2, 2097157, 2, 2, 2097158, 2, 2, 2097159, 2, 2, 2097160, 2, 2, 2097161, 2, 2, 2097162, 2, 2, 2097163, 2, 2, 2097164, 2, 2, 2097165, 2, 2, 2097166, 2, 2, 2097167, 2, 2, 2097168, 2, 2, 2097169, 2, 2, 2097170, 2, 2, 2097171, 2, 2, 2097172, 2, 2, 2097173, 2, 2, 2097174, 2, 2, 2097175, 2, 2, 2097176, 2, 3, 2162690, 2, 65537, 2162691, 2, 65538, 2162692, 2, 65538, 2162693, 2, 65538, 2162694, 2, 65538, 2162695, 2, 65538, 2162696, 2, 65538, 2162697, 2, 65538, 2162698, 2, 65538, 2162699, 2, 65538, 2162700, 2, 65538, 2162701, 2, 65538, 2162702, 2, 65538, 2162703, 2, 65538, 2162704, 2, 65538, 2162705, 2, 65538, 2162706, 2, 65538, 2162707, 2, 65538, 2162708, 2, 65538, 2162709, 2, 65538, 2162710, 2, 65538, 2162711, 2, 65538, 2162712, 2, 65539, 2228226, 2, 65537, 2228227, 2, 65538, 2228228, 2, 65538, 2228229, 2, 65538, 2228230, 2, 65538, 2228231, 2, 65538, 2228232, 2, 65538, 2228233, 2, 65538, 2228234, 2, 65538, 2228235, 2, 65538, 2228236, 2, 65538, 2228237, 2, 65538, 2228238, 2, 65538, 2228239, 2, 65538, 2228240, 2, 65538, 2228241, 2, 65538, 2228242, 2, 65538, 2228243, 2, 65538, 2228244, 2, 65538, 2228245, 2, 65538, 2228246, 2, 65538, 2228247, 2, 65538, 2228248, 2, 65539, 2293762, 2, 65537, 2293763, 2, 65538, 2293764, 2, 65538, 2293765, 2, 65538, 2293766, 2, 65538, 2293767, 2, 65538, 2293768, 2, 65538, 2293769, 2, 65538, 2293770, 2, 65538, 2293771, 2, 65538, 2293772, 2, 65538, 2293773, 2, 65538, 2293774, 2, 65538, 2293775, 2, 65538, 2293776, 2, 65538, 2293777, 2, 65538, 2293778, 2, 65538, 2293779, 2, 65538, 2293780, 2, 65538, 2293781, 2, 65538, 2293782, 2, 65538, 2293783, 2, 65538, 2293784, 2, 65539, 2359298, 2, 131073, 2359299, 2, 131074, 2359300, 2, 131074, 2359301, 2, 131074, 2359302, 2, 131074, 2359303, 2, 131074, 2359304, 2, 131074, 2359305, 2, 131074, 2359306, 2, 131074, 2359307, 2, 131074, 2359308, 2, 131074, 2359309, 2, 131074, 2359310, 2, 131074, 2359311, 2, 131074, 2359312, 2, 131074, 2359313, 2, 131074, 2359314, 2, 131074, 2359315, 2, 131074, 2359316, 2, 131074, 2359317, 2, 131074, 2359318, 2, 131074, 2359319, 2, 131074, 2359320, 2, 131075 )
